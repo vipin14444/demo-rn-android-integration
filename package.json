@@ -1,0 +1,19 @@
+{
+  "name": "MyReactNativeApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "Codepush:android": "appcenter CodePush release-react -a shuru/MyApp -d Production"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "appcenter": "4.4.5",
+    "appcenter-analytics": "4.4.5",
+    "appcenter-crashes": "4.4.5",
+    "react": "^18.2.0",
+    "react-native": "^0.71.10",
+    "react-native-code-push": "^8.0.2"
+  }
+}
